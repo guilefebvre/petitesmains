@@ -6,7 +6,7 @@ Rails.application.routes.draw do
    get "/"=> "index#accueil"
   
   
-  
+  resources :index
   
   
   
