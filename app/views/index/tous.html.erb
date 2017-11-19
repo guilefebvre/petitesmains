@@ -1,0 +1,11 @@
+<div>
+<h1> il y a <%=@lesinscrits.count%> membre dans la base</h1>
+               <%  @lesinscrits.each do |f|  %>  
+                   <p></p>
+                   ---------------------------
+                   <p> <%= f.email %>   <%=link_to "Effacer", :controller=>'index', :action=>'effacer_inscription', :id=>f.id%>    </p>
+               
+                   
+               
+               <% end %>
+           </div>

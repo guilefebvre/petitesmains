@@ -1,0 +1,62 @@
+<%= render "shared/navbar" %>
+
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+ 
+  <div id="intro">
+      <div class="jumbotron">
+          <h1 class="display-3">Paul Emploi</h1>
+          <p class="lead">Le site qui met en relation les étudiants et les particuliers</p>
+          <br>
+          <p>Plus que des petites mains.</p>
+         
+               <% if @profil == "default" then %> 
+          
+                   <form class="form-inline" action="/index" method="POST">
+                        <div class="form-group">
+                        <input type="email" class="form-control" id="InputEmail1" placeholder="e-mail" name="inscription[email]">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Me pré-inscrire !</button>
+                   </form>
+               
+               <% else %>
+                     <% if @deja_inscrit=="true"%>
+                      <form class="form-inline" action="/index" method="POST">
+                        <div class="form-group">
+                        <input type="email" class="form-control" id="InputEmail1" placeholder="e-mail" name="inscription[email]">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Me pré-inscrire !</button>
+                   </form>
+                        <h1 id="message_mail_adresse_existe"> L'adresse <%=@profil%> existe déjà.</h1>
+                   
+                     <% else %>
+                       <h1 id="message_mail"> Merci <%=@profil%> de vous être inscrit</h1>
+                     <% end %>
+             
+               <% end %>
+             
+             
+             
+             
+             
+        
+      </div>
+  
+  
+  </div>
+  
+  
+  <h4 id="mdo">
+    
+  </h4>
+  
+  <h4 id="one">one</h4>
+  
+  <h4 id="two">two</h4>
+  
+  <h4 id="three">three</h4>
+
+  
+  
+</div>
