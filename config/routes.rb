@@ -3,10 +3,12 @@ Rails.application.routes.draw do
   
   
   
-   get "/"=> "index#accueil"
+   get "/"=> "index#index"
+   get "/tous" => "index#tous"
+   get "/effacer/:id" =>"index#effacer_inscription"
   
   
-  
+  resources :index
   
   
   

@@ -1,4 +1,4 @@
-// Place all the styles related to the index controller here.
+/*// Place all the styles related to the index controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
@@ -9,6 +9,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+#message_mail{
+   color:blue;
 
-@import "grayscale";
-@import "grayscale.min";
+}
+
+#message_mail_adresse_existe{
+ color:red;
+ font-size : 15px;
+}
