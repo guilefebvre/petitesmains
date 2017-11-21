@@ -8,7 +8,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 #message_mail {
-  color: blue; }
+  color: white; }
 
 #message_mail_adresse_existe {
   color: red;
@@ -18,11 +18,13 @@
 
 
  #contenu_inscription {
+   
   width:100%;
   height:600px;
   padding-top:100px;
   background-image: url(etudiants_face-213b803280d745b3e599ca6f70ae8bbc809c129a1cfa60078d3416909dd7b44e.jpg);
   background-color: #cccccc;
+  background-size: cover;
 }
 
 #accroche h1{
@@ -33,7 +35,7 @@
 
 
 
-#navbar-example2{
+.navbar {
   background-color :#000000;
   height:50px;
   
@@ -49,6 +51,7 @@
 
 .nav-pills>li {
     float: right;
+    
 }
 
 .nav-link #identification{
@@ -71,4 +74,14 @@
   
   height:600px;
   background-color:grey;
+}
+
+.row {
+    margin-right: 0px; 
+     margin-left: 0px; 
+}
+
+.dropdown-menu{
+  
+  background-color: #000000;
 }
