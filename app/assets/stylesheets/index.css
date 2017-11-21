@@ -7,6 +7,7 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
+ 
 #message_mail {
   color: white; }
 
@@ -45,6 +46,7 @@
       margin-bottom: 0px;
        border-radius: 0px;
 }
+
 .navbar-brand{
   height:50px;
 }
@@ -89,4 +91,4 @@
 .modal-body{
       background-color:white;
       position:relative;
-]
+}
